@@ -1,0 +1,23 @@
+public enum przykladyImionMeskich {
+	IMIE1("Tomek"),
+	IMIE2("Adam"),
+	IMIE3("Edward"),
+	IMIE4("Cezary"),
+	IMIE5("Robert"),
+	IMIE6("Grzegorz"),
+	IMIE7("Mariusz"),
+	IMIE8("Janusz"),
+	IMIE9("Piotr"),
+	IMIE10("Damian"),
+	IMIE11("Kazimierz"),
+	IMIE12("Gracjan");
+	
+	private String imie;
+	przykladyImionMeskich(String imie) {
+		this.imie = imie;
+	}
+	
+	public String zwrocImie() {
+		return imie;
+	}
+}
