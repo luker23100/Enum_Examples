@@ -1,0 +1,23 @@
+public enum przykladyImionZenskich {
+	IMIE1("Anna"),
+	IMIE2("Zuzanna"),
+	IMIE3("Alicja"),
+	IMIE4("Izabela"),
+	IMIE5("Natalia"),
+	IMIE6("Malgorzata"),
+	IMIE7("Paulina"),
+	IMIE8("Alina"),
+	IMIE9("Iwona"),
+	IMIE10("Lidia"),
+	IMIE11("Katarzyna"),
+	IMIE12("Monika");
+	
+	private String imie;
+	przykladyImionZenskich(String imie) {
+		this.imie = imie;
+	}
+	
+	public String zwrocImie() {
+		return imie;
+	}
+}
